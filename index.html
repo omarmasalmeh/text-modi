@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <title>TextModi</title>
+  </head>
+  <body>
+
+    <nav>
+      <ul class="navi">
+          <li><a class="home" href="#" id="new">New</a></li>
+          <li><a href="#" id="btn">Open</a></li>
+          <li><a href="#" id="save">Save</a></li>
+          <li><a href="#" id="saveAs">Save As</a></li>
+          <li><a id="toggle-dark-mode" href="#">Toggle Dark Mode</a></li>
+          <li><a id="reset-to-system" href="#">Reset to System Theme</a></li>
+      </ul>
+      
+  </nav>
+  
+  <br/>
+    File Name: <strong id="fileName"></strong>
+    <br/>
+    
+    <textarea class="form-control" id="editor"></textarea>
+    <script src='./js/scripts.js'></script>
+  </body>
+</html>
